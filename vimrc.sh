@@ -6,16 +6,15 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "alternatively, pass a path where vundle should install plugins
+
 call vundle#begin('~/.vim')
 
 "let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'jnurmine/Zenburn'
 Plugin 'scrooloose/nerdtree' " File tree structure
-Plugin 'OmniCppComplete' " CPP auto completion
 Plugin 'davidhalter/jedi-vim' " Python auto completion 
 Plugin 'bling/vim-airline' " Status bar 
 Plugin 'nathanaelkane/vim-indent-guides' " For the indentation of code  
